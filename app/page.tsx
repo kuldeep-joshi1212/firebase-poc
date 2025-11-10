@@ -113,7 +113,7 @@ export default function Home() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen gap-4 p-4">
+    <div className="flex flex-col items-center justify-center min-h-screen gap-4 p-4 ">
       {user ? (
         <>
           <div className="text-center">
@@ -142,7 +142,7 @@ export default function Home() {
           </button>
         </>
       ) : (
-        <div className="w-full max-w-md space-y-6">
+        <div className="w-full max-w-md space-y-6 p-10 shadow-md rounded-lg">
           <div className="text-center">
             <h1 className="text-2xl font-bold mb-2">Sign In</h1>
             <p className="text-gray-600">Choose your authentication method</p>
